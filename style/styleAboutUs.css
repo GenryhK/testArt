@@ -1,0 +1,36 @@
+body{background-image: url(../img/bacground.png);
+}
+hr{width: 85px;
+  background-color: #85334A;
+height: 1px;
+border: none;}
+#all{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+
+
+}
+#text{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+#text .allText{padding-top: 61px;}
+
+#all img{padding-top: 15%;
+  width: 710px;
+height: 593;}
+
+#button{
+margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 198px;
+height: 54px;
+border: 1px solid #85334A;
+border-radius: 10px;
+align-self: flex-end;}

@@ -1,0 +1,50 @@
+body{background-image: url(../img/background.png);
+}
+
+
+
+#upPanel{display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content:space-between;
+align-items: center;
+align-content: center;
+height: 122px;
+background-color: white;
+background: rgba(255,255,255, 0.5);
+font-size: 20px;
+
+}
+#upPanel img{margin-left: 189px;}
+
+.upMenuText{padding-left: }
+#preparation{display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  width: 530px;
+  padding-top: 214px;
+  padding-left:369px;
+font-size: 55px;
+font-style: italic;
+color:#85334A;
+
+padding-left: 175px;}
+
+#button{display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 50px;
+  width: 309px;
+  border: 1px solid #85334A;
+  border-radius: 10px;
+  margin-top: 77px;
+
+}
+
+#button span{color: #85334A;
+  font-size: 20px;
+}
