@@ -1,0 +1,45 @@
+#fon img{position: absolute;
+  margin-left: 60%;
+  margin-top: 3px;
+  z-index: 1;
+}
+#all{
+  display: flex;
+
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#inputs{position: absolute;
+margin-top: 25%;
+margin-left: 20%;
+}
+#button{height: 53px;
+width: 198px;
+border: 1px solid #85334A;
+border-radius: 7px;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin-top: 77px;
+margin-left: 50%;
+color:#85334A;
+}
+td{width:153px;
+height:30px;}
+img{position: absolute;
+  bottom: 0px;
+left: 0px;}
+
+table{border-spacing: 42px;
+  opacity: 0.5;}
+
+input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+border-bottom: 2px solid black;
+
+opacity: 0.5;}

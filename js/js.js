@@ -1,11 +1,12 @@
-﻿let panel = document.querySelector(`#upPanel`);
+﻿
+let panel = document.querySelector(`#upPanel`);
 
 function upMenuClick(event) {
   let name = event.target.getAttribute(`name`);
   switch (name) {
     case `Katalog`:
       (function() {
-        alert(`katalog`)
+        document.location.href = "katalog.html";
       }());
       break;
     case `AboutUs`:
